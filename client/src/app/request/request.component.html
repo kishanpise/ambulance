@@ -1,0 +1,22 @@
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>PHONE</th>
+                <th>ADDRESS</th>
+                <th>LANDMARK</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let d of Driver ">
+                <td>{{d.name}}</td>
+                <td>{{d.email}}</td>
+                <td>{{d.phone}}</td>
+                <td>{{d.address}}</td>
+                <td>{{d.landmark}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
