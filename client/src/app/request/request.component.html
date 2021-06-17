@@ -10,7 +10,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let d of Driver ">
+            <tr *ngFor="let d of Driver " style="cursor: pointer;" (click)="onClick(d.name)">
                 <td>{{d.name}}</td>
                 <td>{{d.email}}</td>
                 <td>{{d.phone}}</td>
